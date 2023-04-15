@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Employees</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container"> <h3>New Employess</h3>
+        <div class="item marg">
+          <div class="item-1 item1">
+            <label for="name">Enter Name</label>
+            <input type="text" id="name-1" class="input-1">
+          </div>
+          <div class="item-2 item1">
+            <label for="Profession">Enter Profession</label>
+            <input type="text" id="Profession" class="input-1">
+          </div>
+          <div class="item-3 item1">
+            <label for="age">Enter Age</label>
+            <input type="number" id="age" class="input-1">
+          </div>
+        </div>
+        <button class="btn marg" onclick="addedData()">Add User</button>
+        <div class="marg showStatus"></div>
+        <h3 class="marg">Added Employess</h3>
+        <div class="data">
+            <div class="data-1">You have 0 Employees.</div>
+        </div>
+        <ol id="lists"></ol>
+    </div>
+   <script src="./script.js"></script>
+</body>
+</html>
